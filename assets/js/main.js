@@ -65,9 +65,9 @@
   /* ---- 3) フェードイン（JSが動く環境でのみ付与する＝JS無効でも内容は表示される） ---- */
   if (!reduceMotion && 'IntersectionObserver' in window) {
     var targets = document.querySelectorAll(
-      '.sec .sec__num, .sec .sec__title, .sec__text, .statement, .who__grid,' +
-      '.slash-list li, .check-list li, .ba__row, .voice-card, .value-list li,' +
-      '.pillar, .profile__block, .profile__strong, .cta__text, .btn'
+      '.label, .sec__title, .body-text, .statement, .pull, .closing, .who__facts,' +
+      '.rule-list li, .check-list li, .ba__row, .voice, .value-list li,' +
+      '.pillar, .profile__head, .profile__block, .btn'
     );
 
     Array.prototype.forEach.call(targets, function (el) {

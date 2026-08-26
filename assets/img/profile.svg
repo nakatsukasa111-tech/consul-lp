@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960" width="720" height="960" role="img" aria-label="中務正幸 プロフィール写真（準備中）">
+  <rect width="720" height="960" fill="#e9e2d5"/>
+  <rect x="24" y="24" width="672" height="912" fill="none" stroke="#a98c4b" stroke-width="1" stroke-opacity=".55"/>
+  <circle cx="360" cy="392" r="104" fill="none" stroke="#bdb4a2" stroke-width="1.5"/>
+  <path d="M172 700c0-104 84-188 188-188s188 84 188 188" fill="none" stroke="#bdb4a2" stroke-width="1.5"/>
+  <path d="M286 782h148" stroke="#a98c4b" stroke-width="1"/>
+  <path d="M360 772l6 10-6 10-6-10z" fill="#a98c4b"/>
+  <text x="360" y="828" text-anchor="middle" fill="#9d9480"
+        font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="6">PORTRAIT</text>
+</svg>

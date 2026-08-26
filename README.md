@@ -4,16 +4,32 @@
 独立トレーナー・施術家向け上位コンサルの集客ランディングページ。
 
 - 1ページ完結／レスポンシブ（**スマートフォン優先**設計）
-- トンマナ：**モノトーン × アクセント1色（レッド）** のスポーツブランド的な方向性
+- トンマナ：**アイボリー × ネイビー × 金の細いライン**。老舗の会員制クラブのような上品な重厚感
 - ビルド不要。`index.html` をブラウザで開けばそのまま表示されます
+
+## デザインの決めごと
+
+| 要素 | 値 | 使い方 |
+|---|---|---|
+| ベース | アイボリー `#f6f2ea` ／ 生成り `#f1ebdf` | セクションで交互に使い分け |
+| 濃色 | ネイビー `#15243c` | 見出し・ボタン・反転セクション |
+| 本文 | `#3d4860` | 長文の可読性を優先 |
+| アクセント | ゴールド `#a98c4b` | **罫線1px・菱形の点・下線のみ**。面（塗り）には使わない |
+| 見出し書体 | Shippori Mincho B1（明朝） | 見出し・大きなコピー・欧文ラベル |
+| 本文書体 | Noto Sans JP（ゴシック） | 本文・ボタン・リスト |
+
+色はすべて `assets/css/style.css` 冒頭のトークンで一元管理しています。
+ネイビー反転セクション（LINE訴求・最終CTA）とプロフィールは、
+トークンを上書きするだけで面の色が切り替わる構造です。
 
 ## ファイル構成
 
 ```
-index.html              本体（全セクション）
-assets/css/style.css    スタイル
-assets/js/main.js       スムーズスクロール／追従CTA／フェードイン
-assets/img/voice-0*.svg 「受講者の声」写真プレースホルダー
+index.html               本体（全12セクション）
+assets/css/style.css     スタイル
+assets/js/main.js        スムーズスクロール／追従CTA／フェードイン
+assets/img/voice-0*.svg  「受講者の声」写真プレースホルダー
+assets/img/profile.svg   プロフィール写真プレースホルダー
 ```
 
 ## 公開前にやること
@@ -32,18 +48,23 @@ JS側で抑止しています。差し替え後は通常のリンクとして動
 
 ### 2. 「受講者の声」を差し替える
 
-`index.html` の `<section id="voice">` 内、`<article class="voice-card">` が3枠あります。
+`index.html` の `<section id="voice">` 内、`<article class="voice">` が3枠あります。
 
 | 差し替える箇所 | 対象 |
 |---|---|
 | 写真 | `assets/img/voice-01.svg` 〜 `voice-03.svg` を差し替え（jpg/pngにする場合は `src` も変更） |
-| お名前 | `<p class="voice-card__name">` の先頭テキスト |
-| 肩書き | `<span class="voice-card__role">` |
-| コメント | `<blockquote class="voice-card__comment">`（30〜50字程度が目安） |
+| コメント | `<blockquote class="voice__comment">`（30〜50字程度が目安。カギ括弧はCSSで自動的に付きます） |
+| お名前 | `<p class="voice__name">` の先頭テキスト |
+| 肩書き | `<span class="voice__role">` |
 
-写真は正方形（1:1）でトリミングされます。モノクロ表示→ホバーでカラーになります。
+写真は正方形（1:1）でトリミングされます。
+
+### 3. プロフィール写真を差し替える
+
+`assets/img/profile.svg` を差し替えてください（**縦位置 3:4 推奨**）。
+jpg/png にする場合は `<figure class="profile__photo">` 内の `src` も変更します。
 
 ## 備考
 
 - お問い合わせフォームは実装していません（LINE登録後、LINE内でアンケートURLを送付する運用のため）
-- アクセントカラーは `assets/css/style.css` の `--accent` 1箇所で変更できます
+- スマホでの折返しを整えるため、一部の長いコピーに `<br class="sp-only">` を入れています（PCでは無効）
