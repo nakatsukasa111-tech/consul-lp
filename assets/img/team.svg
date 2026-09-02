@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="スタッフとの場面（写真プレースホルダー）">
-  <rect width="1200" height="800" fill="#EDF2F8"/>
+  <rect width="1200" height="800" fill="#F1EADE"/>
   <rect x="24" y="24" width="1152" height="752" fill="none"
-        stroke="#1F6FD0" stroke-width="2" stroke-dasharray="10 8" opacity=".45"/>
-  <text x="600" y="292" text-anchor="middle" fill="#0E2A47"
+        stroke="#D9673A" stroke-width="2" stroke-dasharray="10 8" opacity=".42"/>
+  <text x="600" y="292" text-anchor="middle" fill="#3D372F"
         font-family="system-ui, sans-serif" font-size="54" font-weight="700">スタッフとの場面</text>
-  <text x="600" y="384" text-anchor="middle" fill="#5A6B80" font-family="system-ui, sans-serif" font-size="37">朝礼やミーティング、全員の集合写真。</text>
-  <text x="600" y="447" text-anchor="middle" fill="#5A6B80" font-family="system-ui, sans-serif" font-size="37">明るく、一人ひとりの表情が見えるもの。</text>
-  <text x="600" y="747" text-anchor="middle" fill="#1F6FD0"
+  <text x="600" y="384" text-anchor="middle" fill="#8A8073" font-family="system-ui, sans-serif" font-size="37">朝礼やミーティング、全員の集合写真。</text>
+  <text x="600" y="447" text-anchor="middle" fill="#8A8073" font-family="system-ui, sans-serif" font-size="37">明るく、一人ひとりの表情が見えるもの。</text>
+  <text x="600" y="747" text-anchor="middle" fill="#D9673A"
         font-family="system-ui, sans-serif" font-size="30" font-weight="700" letter-spacing="1.5">推奨 3:2</text>
 </svg>
