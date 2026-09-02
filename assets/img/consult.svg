@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" role="img" aria-label="写真 or イラスト（準備中）">
-  <rect width="1000" height="750" fill="#F1E9DA"/>
-  <circle cx="180" cy="180" r="142" fill="#7FB2DD" opacity=".38"/>
-  <circle cx="820" cy="555" r="180" fill="#F2A73B" opacity=".30"/>
-  <circle cx="720" cy="165" r="75" fill="#1B3A5C" opacity=".12"/>
-  <text x="500" y="383" text-anchor="middle" fill="#1B3A5C" opacity=".55"
-        font-family="system-ui, sans-serif" font-size="41" font-weight="700">写真 or イラスト</text>
-  <text x="500" y="438" text-anchor="middle" fill="#8C8474"
-        font-family="system-ui, sans-serif" font-size="29">オンライン相談の様子／4:3</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" role="img" aria-label="PHOTO（準備中）">
+  <rect width="1000" height="750" fill="#EAE5DB"/>
+  <rect x="41" y="41" width="918" height="668" fill="none" stroke="#C6BEAF" stroke-width="1"/>
+  <path d="M429 300 H571 M500 229 V371" stroke="#C9892C" stroke-width="1.5"/>
+  <text x="500" y="408" text-anchor="middle" fill="#132A44" opacity=".62"
+        font-family="Georgia, 'Times New Roman', serif" font-size="38" letter-spacing="2">PHOTO</text>
+  <text x="500" y="458" text-anchor="middle" fill="#8A8375"
+        font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="1.5">オンライン相談の様子  4:3</text>
 </svg>
