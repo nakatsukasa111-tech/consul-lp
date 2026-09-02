@@ -270,15 +270,29 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{
    参考LPに共通する「/ Section / ＋ 日本語見出し ＋ 短い罫」の型
    ========================================================== */
 .seclabel{
-  font-family:var(--f-head); font-weight:700;
-  font-size:12.5px; letter-spacing:.22em; line-height:1;
+  font-family:var(--f-head); font-weight:900;
+  font-size:clamp(19px,5vw,28px); letter-spacing:.1em; line-height:1;
+  text-transform:uppercase;
   color:var(--accent);
-  margin-bottom:16px;
+  margin-bottom:14px;
 }
-.seclabel::before{ content:"/"; margin-right:.75em; opacity:.6; }
-.seclabel::after{ content:"/"; margin-left:.75em; opacity:.6; }
 .seclabel--center{ text-align:center; }
 .sec--navy .seclabel{ color:var(--accent-l); }
+
+/* 背景に敷く巨大な欧文（参考LPの ABOUT の見せ方） */
+.sec{ position:relative; overflow:hidden; }
+.ghost{
+  position:absolute; left:50%; top:26px;
+  transform:translateX(-50%);
+  font-family:var(--f-head); font-weight:900;
+  font-size:clamp(76px,21vw,190px); line-height:.85;
+  letter-spacing:.02em; white-space:nowrap;
+  color:rgba(19,60,102,.05);
+  pointer-events:none; user-select:none;
+  z-index:0;
+}
+.sec--navy .ghost{ color:rgba(220,232,245,.06); }
+.sec > .wrap,.sec > .split{ position:relative; z-index:1; }
 
 /* 見出し下の短い罫 */
 .h2--center::after{
