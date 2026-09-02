@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="ILLUSTRATION（準備中）">
-  <rect width="600" height="600" fill="#EAE5DB"/>
-  <rect x="33" y="33" width="534" height="534" fill="none" stroke="#C6BEAF" stroke-width="1"/>
-  <path d="M258 240 H342 M300 198 V282" stroke="#C9892C" stroke-width="1.5"/>
-  <text x="300" y="327" text-anchor="middle" fill="#132A44" opacity=".62"
-        font-family="Georgia, 'Times New Roman', serif" font-size="23" letter-spacing="2">ILLUSTRATION</text>
-  <text x="300" y="357" text-anchor="middle" fill="#8A8375"
-        font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="1.5">STEP 1  LINEに登録  1:1</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="LINE登録の画面（写真プレースホルダー）">
+  <rect width="700" height="700" fill="#EDF2F8"/>
+  <rect x="21" y="21" width="658" height="658" fill="none"
+        stroke="#1F6FD0" stroke-width="2" stroke-dasharray="10 8" opacity=".45"/>
+  <text x="350" y="288" text-anchor="middle" fill="#0E2A47"
+        font-family="system-ui, sans-serif" font-size="31" font-weight="700">LINE登録の画面</text>
+  <text x="350" y="341" text-anchor="middle" fill="#5A6B80" font-family="system-ui, sans-serif" font-size="21">スクリーンショットでも</text>
+  <text x="350" y="377" text-anchor="middle" fill="#5A6B80" font-family="system-ui, sans-serif" font-size="21">イラストでも可。</text>
+  <text x="350" y="654" text-anchor="middle" fill="#1F6FD0"
+        font-family="system-ui, sans-serif" font-size="17" font-weight="700" letter-spacing="1.5">1:1</text>
 </svg>

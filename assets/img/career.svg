@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" role="img" aria-label="現役トレーナー時代（写真プレースホルダー）">
+  <rect width="1000" height="750" fill="#EDF2F8"/>
+  <rect x="22" y="22" width="956" height="706" fill="none"
+        stroke="#1F6FD0" stroke-width="2" stroke-dasharray="10 8" opacity=".45"/>
+  <text x="500" y="285" text-anchor="middle" fill="#0E2A47"
+        font-family="system-ui, sans-serif" font-size="45" font-weight="700">現役トレーナー時代</text>
+  <text x="500" y="361" text-anchor="middle" fill="#5A6B80" font-family="system-ui, sans-serif" font-size="31">プロ野球・MLB時代の写真があれば。</text>
+  <text x="500" y="414" text-anchor="middle" fill="#5A6B80" font-family="system-ui, sans-serif" font-size="31">無ければ選手を指導している風景でも可。</text>
+  <text x="500" y="702" text-anchor="middle" fill="#1F6FD0"
+        font-family="system-ui, sans-serif" font-size="25" font-weight="700" letter-spacing="1.5">推奨 4:3</text>
+</svg>

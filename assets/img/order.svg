@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="DIAGRAM（準備中）">
-  <rect width="900" height="600" fill="#EAE5DB"/>
-  <rect x="33" y="33" width="834" height="534" fill="none" stroke="#C6BEAF" stroke-width="1"/>
-  <path d="M386 240 H514 M450 176 V304" stroke="#C9892C" stroke-width="1.5"/>
-  <text x="450" y="327" text-anchor="middle" fill="#132A44" opacity=".62"
-        font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="2">DIAGRAM</text>
-  <text x="450" y="372" text-anchor="middle" fill="#8A8375"
-        font-family="Georgia, 'Times New Roman', serif" font-size="23" letter-spacing="1.5">手をつける順番  3:2</text>
-</svg>

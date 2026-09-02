@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1000" width="750" height="1000" role="img" aria-label="PORTRAIT（準備中）">
-  <rect width="750" height="1000" fill="#EAE5DB"/>
-  <rect x="41" y="41" width="668" height="918" fill="none" stroke="#C6BEAF" stroke-width="1"/>
-  <path d="M304 400 H446 M375 329 V471" stroke="#C9892C" stroke-width="1.5"/>
-  <text x="375" y="545" text-anchor="middle" fill="#132A44" opacity=".62"
-        font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="2">PORTRAIT</text>
-  <text x="375" y="582" text-anchor="middle" fill="#8A8375"
-        font-family="Georgia, 'Times New Roman', serif" font-size="19" letter-spacing="1.5">中務さん  3:4</text>
-</svg>
