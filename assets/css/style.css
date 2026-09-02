@@ -265,21 +265,100 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{
   .areas li:first-child{ grid-column:1 / -1; }
 }
 
+/* ==========================================================
+   セクションラベル（欧文＋短い下線）
+   参考LPに共通する「/ Section / ＋ 日本語見出し ＋ 短い罫」の型
+   ========================================================== */
+.seclabel{
+  font-family:var(--f-head); font-weight:700;
+  font-size:12.5px; letter-spacing:.22em; line-height:1;
+  color:var(--accent);
+  margin-bottom:16px;
+}
+.seclabel::before{ content:"/"; margin-right:.75em; opacity:.6; }
+.seclabel::after{ content:"/"; margin-left:.75em; opacity:.6; }
+.seclabel--center{ text-align:center; }
+.sec--navy .seclabel{ color:var(--accent-l); }
+
+/* 見出し下の短い罫 */
+.h2--center::after{
+  content:""; display:block;
+  width:40px; height:2px; margin:24px auto 0;
+  background:var(--accent);
+}
+.split__body .h2::after{
+  content:""; display:block;
+  width:40px; height:2px; margin:24px 0 0;
+  background:var(--accent);
+}
+.sec--navy .h2--center::after{ background:var(--accent-l); }
+
+/* ==========================================================
+   CTA帯（本文の途中に差し込む）
+   ========================================================== */
+.band{
+  background:linear-gradient(100deg, var(--accent) 0%, #1a5cb0 100%);
+  padding:38px 0 42px;
+  text-align:center;
+}
+.band__text{
+  font-family:var(--f-head); font-weight:700;
+  font-size:clamp(16px,4.3vw,21px); line-height:1.75;
+  color:#fff;
+  margin-bottom:22px;
+}
+.band__btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:14px;
+  min-width:min(100%,420px);
+  padding:20px 32px;
+  background:#fff; color:var(--accent);
+  font-family:var(--f-head); font-weight:700;
+  font-size:clamp(15px,4.1vw,17px); letter-spacing:.04em;
+  text-decoration:none;
+  border-radius:99px;
+  box-shadow:0 10px 24px rgba(8,32,60,.22);
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.band__btn:hover{ transform:translateY(-2px); box-shadow:0 14px 30px rgba(8,32,60,.3); }
+.band__arrow{ font-size:.68em; }
+
+/* ==========================================================
+   背景に敷く薄い連番
+   ========================================================== */
+.areas,.gifts{ counter-reset:idx; }
+.areas li,.gift{ position:relative; overflow:hidden; }
+.areas li::after,.gift::after{
+  counter-increment:idx;
+  content:counter(idx,decimal-leading-zero);
+  position:absolute; right:10px; top:-6px;
+  font-family:var(--f-head); font-weight:900;
+  font-size:76px; line-height:1;
+  color:rgba(31,111,208,.07);
+  pointer-events:none;
+}
+
+/* 番号のあとに縦罫（参考LPの「01 │ タイトル」の形） */
+.areas__no{
+  padding-right:16px;
+  border-right:1px solid var(--rule);
+}
+
 /* ---------- 3分・20問・0円 ---------- */
 .specs{
   display:grid; grid-template-columns:repeat(3,1fr);
-  gap:12px; margin:8px 0 6px;
+  gap:14px; margin:10px auto 6px;
+  max-width:430px;
 }
 .specs li{
-  display:flex; align-items:baseline; justify-content:center; gap:4px;
-  padding:24px 6px;
-  background:rgba(255,255,255,.07);
-  border:1px solid var(--rule-navy);
-  border-radius:var(--r);
+  aspect-ratio:1/1;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  background:rgba(255,255,255,.05);
+  border:1.5px solid rgba(106,169,238,.45);
+  border-radius:50%;
 }
 .specs__num{
   font-family:var(--f-head); font-weight:900;
-  font-size:clamp(38px,11vw,58px); line-height:1;
+  font-size:clamp(36px,10vw,52px); line-height:1;
   color:var(--accent-l);
 }
 .specs__unit{
