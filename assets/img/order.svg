@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="図解イラスト（準備中）">
+  <rect width="900" height="600" fill="#F1E9DA"/>
+  <circle cx="162" cy="144" r="114" fill="#7FB2DD" opacity=".38"/>
+  <circle cx="738" cy="444" r="144" fill="#F2A73B" opacity=".30"/>
+  <circle cx="648" cy="132" r="60" fill="#1B3A5C" opacity=".12"/>
+  <text x="450" y="308" text-anchor="middle" fill="#1B3A5C" opacity=".55"
+        font-family="system-ui, sans-serif" font-size="37" font-weight="700">図解イラスト</text>
+  <text x="450" y="358" text-anchor="middle" fill="#8C8474"
+        font-family="system-ui, sans-serif" font-size="26">手をつける順番／3:2</text>
+</svg>

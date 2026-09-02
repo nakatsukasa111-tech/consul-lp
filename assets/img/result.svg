@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="診断結果の画面（準備中）">
+  <rect width="800" height="1000" fill="#F1E9DA"/>
+  <circle cx="144" cy="240" r="152" fill="#7FB2DD" opacity=".38"/>
+  <circle cx="656" cy="740" r="192" fill="#F2A73B" opacity=".30"/>
+  <circle cx="576" cy="220" r="80" fill="#1B3A5C" opacity=".12"/>
+  <text x="400" y="508" text-anchor="middle" fill="#1B3A5C" opacity=".55"
+        font-family="system-ui, sans-serif" font-size="33" font-weight="700">診断結果の画面</text>
+  <text x="400" y="552" text-anchor="middle" fill="#8C8474"
+        font-family="system-ui, sans-serif" font-size="23">スクリーンショット／4:5</text>
+</svg>

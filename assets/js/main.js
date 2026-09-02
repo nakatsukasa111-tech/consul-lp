@@ -35,7 +35,7 @@
   });
 
   /* ---- 2) 追従CTA：ヒーローを過ぎたら表示、最終CTAに重なったら隠す ---- */
-  var sticky = document.getElementById('stickyCta');
+  var sticky = document.getElementById('sticky');
   var hero = document.querySelector('.hero');
   var lastCta = document.getElementById('cta');
 
@@ -65,9 +65,8 @@
   /* ---- 3) フェードイン（JSが動く環境でのみ付与する＝JS無効でも内容は表示される） ---- */
   if (!reduceMotion && 'IntersectionObserver' in window) {
     var targets = document.querySelectorAll(
-      '.label, .sec__title, .body-text, .statement, .pull, .closing, .who__facts,' +
-      '.rule-list li, .check-list li, .ba__row, .voice, .value-list li,' +
-      '.pillar, .profile__head, .profile__block, .btn'
+      '.h2, .lead, .big, .shot, .chips, .facts, .axes, .out,' +
+      '.ticks li, .limit, .honest, .step, .faq details, .btn'
     );
 
     Array.prototype.forEach.call(targets, function (el) {

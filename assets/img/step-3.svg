@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="イラスト（準備中）">
+  <rect width="600" height="600" fill="#F1E9DA"/>
+  <circle cx="108" cy="144" r="114" fill="#7FB2DD" opacity=".38"/>
+  <circle cx="491" cy="444" r="144" fill="#F2A73B" opacity=".30"/>
+  <circle cx="432" cy="132" r="60" fill="#1B3A5C" opacity=".12"/>
+  <text x="300" y="308" text-anchor="middle" fill="#1B3A5C" opacity=".55"
+        font-family="system-ui, sans-serif" font-size="34" font-weight="700">イラスト</text>
+  <text x="300" y="341" text-anchor="middle" fill="#8C8474"
+        font-family="system-ui, sans-serif" font-size="21">STEP3：3分で答える／1:1</text>
+</svg>
