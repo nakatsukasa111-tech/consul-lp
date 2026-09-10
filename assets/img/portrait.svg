@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img" aria-label="中務さんの顔写真（写真プレースホルダー）">
+  <rect width="900" height="1200" fill="#F1EADE"/>
+  <rect x="27" y="27" width="846" height="1146" fill="none"
+        stroke="#D9673A" stroke-width="2" stroke-dasharray="10 8" opacity=".42"/>
+  <text x="450" y="519" text-anchor="middle" fill="#3D372F"
+        font-family="system-ui, sans-serif" font-size="40" font-weight="700">中務さんの顔写真</text>
+  <text x="450" y="587" text-anchor="middle" fill="#8A8073" font-family="system-ui, sans-serif" font-size="28">上半身、正面かやや斜め。</text>
+  <text x="450" y="635" text-anchor="middle" fill="#8A8073" font-family="system-ui, sans-serif" font-size="28">白背景か店内。清潔感のある服装で。</text>
+  <text x="450" y="1141" text-anchor="middle" fill="#D9673A"
+        font-family="system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="1.5">推奨 3:4（縦）</text>
+</svg>

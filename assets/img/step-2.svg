@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="診断が届いた画面（写真プレースホルダー）">
+  <rect width="700" height="700" fill="#F1EADE"/>
+  <rect x="21" y="21" width="658" height="658" fill="none"
+        stroke="#D9673A" stroke-width="2" stroke-dasharray="10 8" opacity=".42"/>
+  <text x="350" y="288" text-anchor="middle" fill="#3D372F"
+        font-family="system-ui, sans-serif" font-size="31" font-weight="700">診断が届いた画面</text>
+  <text x="350" y="341" text-anchor="middle" fill="#8A8073" font-family="system-ui, sans-serif" font-size="21">スクリーンショットでも</text>
+  <text x="350" y="377" text-anchor="middle" fill="#8A8073" font-family="system-ui, sans-serif" font-size="21">イラストでも可。</text>
+  <text x="350" y="654" text-anchor="middle" fill="#D9673A"
+        font-family="system-ui, sans-serif" font-size="17" font-weight="700" letter-spacing="1.5">1:1</text>
+</svg>

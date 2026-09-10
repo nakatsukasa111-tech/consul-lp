@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" width="1400" height="800" role="img" aria-label="5つの領域の図解（写真プレースホルダー）">
+  <rect width="1400" height="800" fill="#F1EADE"/>
+  <rect x="24" y="24" width="1352" height="752" fill="none"
+        stroke="#D9673A" stroke-width="2" stroke-dasharray="10 8" opacity=".42"/>
+  <text x="700" y="274" text-anchor="middle" fill="#3D372F"
+        font-family="system-ui, sans-serif" font-size="63" font-weight="700">5つの領域の図解</text>
+  <text x="700" y="382" text-anchor="middle" fill="#8A8073" font-family="system-ui, sans-serif" font-size="43">収支・顧客・集客・継続・組織の関係図。</text>
+  <text x="700" y="455" text-anchor="middle" fill="#8A8073" font-family="system-ui, sans-serif" font-size="43">写真ではなくイラスト／作図で。</text>
+  <text x="700" y="747" text-anchor="middle" fill="#D9673A"
+        font-family="system-ui, sans-serif" font-size="35" font-weight="700" letter-spacing="1.5">推奨 16:9</text>
+</svg>
